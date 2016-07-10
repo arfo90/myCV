@@ -3,6 +3,8 @@ var http = require('http');
 var express = require("express");
 var app = express();
 
+var port = process.env.PORT || 5000;
+
 // //Lets define a port we want to listen to
 // const PORT=8080; 
 
@@ -30,4 +32,4 @@ console.log('Booting..');
 console.log('Here we go..');
 console.log('Server is Started');
 
-app.listen(5000, '127.0.0.1')
+app.listen(port, '127.0.0.1')
