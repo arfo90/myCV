@@ -20,5 +20,12 @@
     "express": "3.3.5",
     "jade": "*"
   },
+  "engines": {
+    "node": "6.2.0"
+  },
+   "keywords": [
+    "myCV",
+    "heroku"
+  ],
   "homepage": "https://github.com/arfo90/myCV#readme"
 }
