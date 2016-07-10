@@ -49,7 +49,7 @@ PHOTO (AVATAR)
   display: inline-block;
 }
 #photo img{
-  width: 150px;
+  width: 130px;
   height: 150px;
   border-radius: 50%;
 }
@@ -330,6 +330,53 @@ HOBBIES
   top: 6px;
   left: 7px;
 }
+
+/*******************************************
+SKILL-TAG
+*******************************************/
+.skilltag{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #00688B;
+  position: relative;
+  font-size: 1.2em;
+}
+.skilltag:before{
+  content: "\f121";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
+/*******************************************
+Prac-TAG
+*******************************************/
+.practag{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 25px;
+  background: #FF5733;
+  position: relative;
+  font-size: 1.2em;
+}
+.practag:before{
+  content: "\f02d";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+
 /*******************************************
 MEDIA
 *******************************************/
