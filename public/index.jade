@@ -18,129 +18,202 @@ html(lang='en')
           #photo-header.text-center
             // PHOTO (AVATAR)
             #photo
-              img(src='img/avatar.jpg', alt='avatar')
+              img(src='img/avatar.png', alt='avatar')
             #text-header
               h1
                 | Hello,
                 br
                 |  my name is 
                 span Amir
-                sup 24yo
-                |  and this is my resume/cv
       .row
         .col-xs-12.col-sm-7
           // ABOUT ME
           .box
             h2 About Me
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.
+            p Software Engineer, music lover, blogger, photographer
           // EDUCATION
           .box
             h2 Education
             ul#education.clearfix
               li
-                .year.pull-left 1990
+                .year.pull-left 2007
                 .description.pull-right
-                  h3 I was born in Katowice
-                  p
-                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.
+                  h3 Diploma. Mathematics & Physics
               li
-                .year.pull-left 2005
+                .year.pull-left 2011
                 .description.pull-right
-                  h3 Secondary school specializing in artistic
+                  h3 B.Sc. Computing Science
+                  h5 Staffordshire University
                   p
-                    | Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis voluptatibus.
+                    | Fyp: TAF - Tourist attraction finder, a location based Android app 
+                    a(href='https://www.youtube.com/watch?v=cWARn9omrOM', target='_blank') More info..
               li
-                .year.pull-left 2009
+                .year.pull-left 2015
                 .description.pull-right
-                  h3 First level graduation in Graphic Design
-                  p
-                    | Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam perferendis? Iusto, quibusdam asperiores unde repellat.
-              li
-                .year.pull-left 2012
-                .description.pull-right
-                  h3 Second level graduation in Graphic Design
-                  p Ducimus, aliquam tempore autem itaque et accusantium!
+                  h3 PGs. Software Engineering
+                  h5 Staffordshire University
           // EXPERIENCES
           .box
-            h2 Experiences
+            h2 Professional Experiences
             .job.clearfix
               .col-xs-3
-                .where Google
-                .year 2013 - 2014
+                .where Flexperto
+                .year 2016 - Present
+                .year Berlin - Germany
               .col-xs-9
-                .profession Front-end developer / php programmer
+                .profession Backend Developer
                 .description
-                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.
+                  | Responsible for developing, maintaing backend
+                  a(href='http://www.flexperto.com', target='_blank') About Flexperto
             .job.clearfix
               .col-xs-3
-                .where Twitter
-                .year 2012
+                .where Nintex
+                .year 2014 - 2016
+                .year Kuala Lumpur - Malaysia
+              .col-xs-9
+                .profession Microservice Developer
+                .description
+                  | Responsible for building, maintaining and deploying microservice for cloud native software. Using Ruby, C# and node.js and practicing TDD and BDD. Using tehcnologies and services such as Azure, AWS, go-cd, etc
+                  a(href='https://www.nintex.com', target='_blank') About Nintex
+            .job.clearfix
+              .col-xs-3
+                .where Exact
+                .year 2012 - 2014
+                .year Kuala Lumpur - Malaysia
+              .col-xs-9
+                .profession Software Engineer
+                .description
+                  | Developing and maintaining cloud based ERP system using .net technologies
+                  | such as VB.net. C# and sqlserver 2008. Focused on Professional Services
+              br
+              br
+              .col-xs-3
+              .col-xs-9
+                .profession UX Developer
+                .description
+                  | Responsible for building and maintaining horizontal UX feature and controller component for Exact Online cloud Application
+                a(href='https://www.exact.com/global/', target='_blank') About Exact
+            .job.clearfix
+              .col-xs-3
+                .where Corenet Research
+                .year Summer of 2011
+                .year Kuala Lumpur - Malaysia
               .col-xs-9
                 .profession Web Developer
-                .description
-                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.
+                .description Building realtime Android app for stock market
         .col-xs-12.col-sm-5
           // CONTACT
           .box.clearfix
             h2 Contact
-            .contact-item
-              .icon.pull-left.text-center
-                span.fa.fa-phone.fa-fw
-              .title.only.pull-right 500 345 242
+            //
+              <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">500 345 242</div>
+              </div>
             .contact-item
               .icon.pull-left.text-center
                 span.fa.fa-envelope.fa-fw
-              .title.only.pull-right office@kamsolutions.pl
+              .title.only.pull-right arfo.amireza@gmail.com
             .contact-item
               .icon.pull-left.text-center
                 span.fa.fa-twitter.fa-fw
               .title.pull-right Twitter
-              .description.pull-right https://twitter.com/WordPress
+              .description.pull-right https://twitter.com/arfo90
             .contact-item
               .icon.pull-left.text-center
-                span.fa.fa-facebook.fa-fw
-              .title.pull-right Facebook
-              .description.pull-right https://www.facebook.com/facebook
-            .contact-item
-              .icon.pull-left.text-center
-                span.fa.fa-skype.fa-fw
-              .title.pull-right Skype
-              .description.pull-right kamsolutions.pl
+                span.fa.fa-github.fa-fw
+              .title.pull-right Github
+              .description.pull-right
+                a(href='https://github.com/arfo90', target='_blank') arfo90
+            //
+              <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
+              <div class="title pull-right">Skype</div>
+              <div class="description pull-right">amireza.fatemi</div>
+              </div>
           // SKILLS
           .box
-            h2 Skills
-            .skills
-              .item-skills(data-percent='1.00') HTML
-              .item-skills(data-percent='0.90') CSS
-              .item-skills(data-percent='0.80') jQuery
-              .item-skills(data-percent='0.75') PHP
-              .item-skills(data-percent='0.25') Laravel 2 (framework)
-              .skills-legend.clearfix
-                .legend-left.legend Beginner
-                .legend-left.legend
-                  span Proficient
-                .legend-right.legend
-                  span Expert
-                .legend-right.legend Master
+            h2 In my Toolbelt
+            .skilltag Ruby
+            .skilltag C#
+            .skilltag VB.net
+            .skilltag Java
+            .skilltag ASP.net
+            .skilltag JavaScript
+            .skilltag Rake
+            .skilltag
+              | Java(Android
+              | Native)
+            .skilltag Bash
+            .skilltag paper.js
+            .skilltag MSSQL
+            .skilltag swf (workflow)
+            .skilltag MySQL
+            .skilltag boostrap
+            .skilltag Rails
+            .skilltag JQuey
+            .skilltag PHP
+            .skilltag Postgresql
+            .skilltag HTTP
+            .skilltag docker
+            .skilltag node.js
+            .skilltag Socket.io
+          // SKILLS
+          .box
+            h2 Practices/Tools
+            .practag Agile development (Scrum, Kanban)
+            .practag TDD
+            .practag BDD
+            .practag SOLID
+            .practag Continues Integration and automation
+            .practag MVC
+            .practag MVVM
+            .practag Distributed system
+            .practag Microservices
+            .practag Git
+            .practag TFS
+            .practag SpecFlow
+            .practag Cucumber
+            .practag JMeter
+            .practag AWS
+            .practag Azure
+            .practag go-cd
+          // 
+          //
+            <div class="box">
+            <h2>Skills</h2>
+            <div class="skills">
+            <div class="item-skills" data-percent="1.00">HTML</div>
+            <div class="item-skills" data-percent="0.90">CSS</div>
+            <div class="item-skills" data-percent="0.80">jQuery</div>
+            <div class="item-skills" data-percent="0.75">PHP</div>
+            <div class="item-skills" data-percent="0.25">Laravel 2 (framework)</div>
+            <div class="skills-legend clearfix">
+            <div class="legend-left legend">Beginner</div>
+            <div class="legend-left legend"><span>Proficient</span></div>
+            <div class="legend-right legend"><span>Expert</span></div>
+            <div class="legend-right legend">Master</div>
+            </div>
+            </div>
+            </div>
           // LANGUAGES
           .box
             h2 Languages
             #language-skills
               .skill
-                | Polish 
+                | Persian 
                 .icons.pull-right
-                  .icons-red(style='width: 80%;')
+                  .icons-red(style='width: 99%;')
               .skill
                 | English 
                 .icons.pull-right
-                  .icons-red(style='width: 60%;')
+                  .icons-red(style='width: 80%;')
           // HOBBIES
           .box
             h2 Hobbies
             .hobby Photography
-            .hobby Fitness
             .hobby Programming
+            .hobby Cooking
     // JQUERY
     script(src='js/jquery.min.js')
     // BOOTSTRAP
